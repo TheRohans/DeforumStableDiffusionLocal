@@ -19,13 +19,16 @@ Local version of Deforum Stable Diffusion V0.4, supports txt settings file input
 
 Made this quick local Windows version mostly based on the Colab code by deforum, which supports very cool turbo mode animation output for Stable Diffusion!
 
-As an artist and Unity game designer, I may not very familiar with Python code, so let me know whether there is any improvement for this project!
+It's tested on:
 
-It's tested working on Windows 10 with RTX 2080 SUPER and RTX 3090 GPU (it runs somehow much faster on my local 3090 then Colab..) **I haven't tested it on Mac though.**
+- Windows 10 with RTX 2080 SUPER and RTX 3090 GPU (it runs somehow much faster on my local 3090 then Colab)
+- Windows 10 on CPU with AMD Ryzen 5 (quite slow)
+- Windows 10 NVIDIA GTX 1660 Ti (does not currently work, not enough memory - [this does though](https://github.com/sd-webui/stable-diffusion-webui)
+- **not tested it on Mac though.**
 
 ## Installation
 
-You can use an [anaconda](https://conda.io/) environment to host this local project:
+You can use an [miniconda](https://docs.conda.io/en/latest/miniconda.html) environment to host this local project:
 
 ```bash
 conda create --name dsd python=3.8.5 -y
